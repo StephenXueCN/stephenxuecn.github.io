@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Grown in a small town, I was lucky to join in the University of Science and Technology of China by Collage Entrance Examination of China to further broaden my horizon after paticipating the CPho in High school. Now I am a member of [Atom Trap Trace Analysis group](http://atta.ustc.edu.cn/en-us/index.html), have visited the [Budker Group](https://budker.berkeley.edu/)at Mainz and will seek my PhD most likely at United States.
+Grown in a small town, I was lucky to join in the University of Science and Technology of China by Collage Entrance Examination of China to further broaden my horizon after paticipating the CPho in High school. Now I am a member of [Atom Trap Trace Analysis group](http://atta.ustc.edu.cn/en-us/index.html), have visited the [Budker Group](https://budker.berkeley.edu/) at Mainz and will seek my PhD most likely at United States.
 
 Being a introverted  person starting from childhood, books is the only channel to communicate with others. Then it evolves into forms like musics, movies and animations. Now governed by the impulse of expressing, the photography is now my favourite hobby(although my  おたく property is still unchanged which limits my content).
 
