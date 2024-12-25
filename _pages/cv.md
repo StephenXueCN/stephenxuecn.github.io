@@ -16,25 +16,25 @@ Education
 Research experience
 ======
 * University of Science and Technology of China, Trace Analysis Lab-Hefei, China
-  Advisors: \textbf{Prof. Wei Jiang} and \textbf{Prof. Zhengtian Lu} Sep 2023 -  Present
-  \textbf{Projects}:Precision measurement of VUV(Vacuum-UltraViolet) spectrum of a Krypton lamp
-  * -Designed a two-photon resonance method to measure the VUV spectrum of a Krypton lamp, which eliminates the need for high-precision VUV optical apparatus.
-  * -Implemented the designed two-photon method using the ATTA (Atom Trap Trace Analysis) system to confirm the VUV lamp's self-reversal spectrum experimentally and reached a precision of 100 MHz.
-  * -Confirmed the validity of our description of the photon imprisonment mechanism inside plasma, in contrast to the widely used Lambert-Beer Law.
+  Advisors: *Prof. Wei Jiang* and *Prof. Zhengtian Lu* Sep 2023 -  Present
+  *Projects*:Precision measurement of VUV(Vacuum-UltraViolet) spectrum of a Krypton lamp
+  * Designed a two-photon resonance method to measure the VUV spectrum of a Krypton lamp, which eliminates the need for high-precision VUV optical apparatus.
+  * Implemented the designed two-photon method using the ATTA (Atom Trap Trace Analysis) system to confirm the VUV lamp's self-reversal spectrum experimentally and reached a precision of 100 MHz.
+  * Confirmed the validity of our description of the photon imprisonment mechanism inside plasma, in contrast to the widely used Lambert-Beer Law.
 * Helmholtz Institute Mainz, Budker Group-Mainz, Germany
-  Advisors: \textbf{Dr. Hendrik Bekker} and \textbf{Prof. Dmitry Budker} Jul 2024 -  Oct 2024
-  \textbf{Projects}:Loading positron into RF (Radio Frequency) trap (part of AMOC-AntiMatter On Chip project)
-  * -Developed two proposals (through positronium or through high-quality positron pulses by Buffer gas trap) for loading positrons into the existing RF trap, eventually to make antihydrogen in a university laboratory, offering a more accessible alternative to the CERN facility.
+  Advisors: *Dr. Hendrik Bekker* and *Prof. Dmitry Budker* Jul 2024 -  Oct 2024
+  *Projects*:Loading positron into RF (Radio Frequency) trap (part of AMOC-AntiMatter On Chip project)
+  * Developed two proposals (through positronium or through high-quality positron pulses by Buffer gas trap) for loading positrons into the existing RF trap, eventually to make antihydrogen in a university laboratory, offering a more accessible alternative to the CERN facility.
   * Developed a test platform to evaluate the production of metastable positronium , aiming to provide critical knowledge for potential candidate of positronium convertors.
-  * -Developed a cost-efficient Monte-Carlo program to evaluate the efficiency of the Buffer gas trap, providing advice on trap design.
-  * -Proposed a compact two-stage buffer gas trap design combined with fast turn-up of RF trap, aiming to provide high quality positron pulses and make loading possible.
+  * Developed a cost-efficient Monte-Carlo program to evaluate the efficiency of the Buffer gas trap, providing advice on trap design.
+  * Proposed a compact two-stage buffer gas trap design combined with fast turn-up of RF trap, aiming to provide high quality positron pulses and make loading possible.
+    
 Skills
 ======
 * Programming: C, Python
 * Tools: Mathematica, MATLAB, SolidWorks, COMSOL
 
 Honors and Awards
-
 ======
 * University of Science and Technology of China and Optics Valley Scholarship (Top 1) 2022
 * Outstanding Student Scholarship Gold (Top 5) 2023
