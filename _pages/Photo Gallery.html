@@ -12,27 +12,10 @@ author_profile: false
 <style>
    .centered-image {
       display: block;
-      max-width: 50%;
+      max-width: 100%;
       height: auto;
       margin-left: auto;
       margin-right: auto;
-   }
-   .modal-image {
-      display: block;
-      max-width: 90%;
-      max-height: 90%;
-      margin: auto;
-      margin-top: 5%;
-   }
-   .modal {
-      display: none;
-      position: fixed;
-      z-index: 9999;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.8); /* 确保使用Flexbox布局 */
-      justify-content: center; /* 水平居中 */
-      align-items: center; /* 垂直居中 */
    }
 </style>
 </head>
@@ -44,18 +27,6 @@ author_profile: false
   <img id="modal-image" class="modal-image">
 </div>
 
-<script>
-   function showModal(image) {
-      var modal = document.getElementById("modal");
-      var modalImage = document.getElementById("modal-image");
-      modal.style.display = "block";
-      modalImage.src = image.src;
-   }
- 
-   function hideModal() {
-      var modal = document.getElementById("modal");
-      modal.style.display = "none";
-   }
-</script>
+
 </body>
 </html>
