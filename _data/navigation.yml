@@ -12,7 +12,7 @@ main:
     url: /publications/      
     
   - title: "Photo Gallery"
-    url: /Photo Gallery/
+    url: /index/
         
   - title: "Blog Posts"
     url: /year-archive/
