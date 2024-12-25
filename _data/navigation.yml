@@ -9,17 +9,13 @@ main:
     url: /cv/
     
   - title: "Publications"
-    url: /publications/
-
-  - title: "Talks"
-    url: /talks/    
-
-  - title: "Teaching"
-    url: /teaching/    
+    url: /publications/      
     
-  - title: "Portfolio"
-    url: /portfolio/
+  - title: "Photo Gallery"
+    url: /Photo Gallery/
         
   - title: "Blog Posts"
     url: /year-archive/
-    
+
+  - title: "Review Posts"
+    url: /review/
