@@ -11,54 +11,34 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* B.S. of science in department of physics,Univerisity of Science and Technology of China, 2021-2025
 
-Work experience
+Research experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+* University of Science and Technology of China, Trace Analysis Lab-Hefei, China
+  Advisors: \textbf{Prof. Wei Jiang} and \textbf{Prof. Zhengtian Lu} Sep 2023 -  Present
+  \textbf{Projects}:Precision measurement of VUV(Vacuum-UltraViolet) spectrum of a Krypton lamp
+  * -Designed a two-photon resonance method to measure the VUV spectrum of a Krypton lamp, which eliminates the need for high-precision VUV optical apparatus.
+  * -Implemented the designed two-photon method using the ATTA (Atom Trap Trace Analysis) system to confirm the VUV lamp's self-reversal spectrum experimentally and reached a precision of 100 MHz.
+  * -Confirmed the validity of our description of the photon imprisonment mechanism inside plasma, in contrast to the widely used Lambert-Beer Law.
+* Helmholtz Institute Mainz, Budker Group-Mainz, Germany
+  Advisors: \textbf{Dr. Hendrik Bekker} and \textbf{Prof. Dmitry Budker} Jul 2024 -  Oct 2024
+  \textbf{Projects}:Loading positron into RF (Radio Frequency) trap (part of AMOC-AntiMatter On Chip project)
+  * -Developed two proposals (through positronium or through high-quality positron pulses by Buffer gas trap) for loading positrons into the existing RF trap, eventually to make antihydrogen in a university laboratory, offering a more accessible alternative to the CERN facility.
+  * Developed a test platform to evaluate the production of metastable positronium , aiming to provide critical knowledge for potential candidate of positronium convertors.
+  * -Developed a cost-efficient Monte-Carlo program to evaluate the efficiency of the Buffer gas trap, providing advice on trap design.
+  * -Proposed a compact two-stage buffer gas trap design combined with fast turn-up of RF trap, aiming to provide high quality positron pulses and make loading possible.
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming: C, Python
+* Tools: Mathematica, MATLAB, SolidWorks, COMSOL
 
-Publications
+Honors and Awards
+
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* University of Science and Technology of China and Optics Valley Scholarship (Top 1) 2022
+* Outstanding Student Scholarship Gold (Top 5) 2023
+* National Fundamental Science Talent Scholarship (Top 5) 2021,2023,2024
+* Outstanding Freshman Scholarship (Top 10) 2021
+
+
