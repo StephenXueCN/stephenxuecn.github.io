@@ -1,6 +1,6 @@
 ---
 title: 'Travel plan'
-date: 2024-12-26
+date: 2024-12-24
 permalink: /posts/2024/12/blog-post-3/
 tags:
   - travel
