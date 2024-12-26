@@ -224,6 +224,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  documents:
+    output: true
+    permalink: /documents/:path/
 
 
 # These settings control how pages and collections are included in the site
