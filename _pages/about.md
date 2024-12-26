@@ -11,6 +11,8 @@ Grown in a small town, I was lucky to join in the University of Science and Tech
 
 Being a introverted  person starting from childhood, books is the only channel to communicate with others. Then it evolves into forms like musics, movies and animations. Now governed by the impulse of expressing, the photography is now my favourite hobby(although my  おたく property is still unchanged which limits my content).
 
+本网站语言不定，针对不同内容而使用中文,English,日本語,Deutsch.
+
 For more info
 ------
 This is a personal page created from [here](https://academicpages.github.io). Many thanks to the source code.
