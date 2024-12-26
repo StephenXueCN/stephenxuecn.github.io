@@ -1,0 +1,14 @@
+---
+title: 'Travel plan'
+date: 2024-12-26
+permalink: /posts/2024/12/blog-post-3/
+tags:
+  - travel
+  - celebration
+---
+めでたいのりょこ 
+------
+
+Congratulations on the openning of my personal pages which is built on Jekyll and a little hybrid from other html template design. Now the pages is deployed on the Vercel and has a custum domain of ustcxzh.cn. Deploying on the Vercel solves the visiting speed problem when using Github Pages service, and cooperating with the CDN service provided by the Cloudflare, this websites is accessable from China Mainland and also other regions with acceptable speed.
+
+Next target is to convert all my physics note into markdown and post it on this website. I will also share some useful resource for physics learning. If any of these resources violate your right please contact me through email. Meanwhile, the experience of this website on the mobile device still needs to improve.
