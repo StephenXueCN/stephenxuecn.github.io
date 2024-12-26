@@ -5,14 +5,10 @@ title: "My Review"
 author_profile: true
 ---
 
+
 {% include base_path %}
-{% capture written_year %}'None'{% endcapture %}
-{% assign reviews = site.documents | where: "path", "/review/*" %}
-{% for review in reviews %}
-  {% capture year %}{{ review.date | date: '%Y' }}{% endcapture %}
-  {% if year != written_year %}
-    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
-    {% capture written_year %}{{ year }}{% endcapture %}
-  {% endif %}
+
+
+{% for post in site.portfolio %}
   {% include archive-single.html %}
 {% endfor %}
