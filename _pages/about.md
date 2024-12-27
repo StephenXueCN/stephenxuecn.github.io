@@ -13,7 +13,7 @@ Being a introverted  person starting from childhood, books is the only channel t
 
 This website is originally inspired by my PhD application process, where I learned that many students have their own academic website to show themselves. Pondering that all my research experience is all included in my CV and PS, why not just build a website for fun rather than only showing adademic prefomance. So I make this website a hybrid of academic personal website, study note, blogs, photos and other reviews I want to share. So you can see [**CV**](https://www.ustcxzh.cn/cv/) [**Publications**](https://www.ustcxzh.cn/publications/) where I will share my research experience, [**Blog Posts**](https://www.ustcxzh.cn/year-archive/) is the combination of my note and other interesting blogs, the [**Photo Gallery**](https://www.ustcxzh.cn/photo/) is my photography collection, and the [**Review Post**](https://www.ustcxzh.cn/review/) is my movies, animation and games review.
 
-<center><font color=blue size=70>_Hope You Will Enjoy My Website_</font></center>
+<center><font color=00CCCC size=30 face="Times New Rome">Hope You Will Enjoy My Website</font></center>
 
 The language used in this website is flexible. It could be English 中文 Deutsch and 日本語. It depends on which language best expresses the meaning.
 
