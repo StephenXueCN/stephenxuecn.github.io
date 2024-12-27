@@ -11,11 +11,11 @@ Grown in a small town, I was lucky to join in the University of Science and Tech
 
 Being a introverted  person starting from childhood, books is the only channel to communicate with others. Then it evolves into forms like musics, movies and animations. Now governed by the impulse of expressing, the photography is now my favourite hobby(although my おたく property is still unchanged which limits my content).
 
-This website is originally inspired by my PhD application process, where I learned that many students have their own academic website to show themselves. Pondering that all my research experience is all included in my CV and PS, why not just build a website for fun rather than only showing adademic prefomance. So I make this website a hybrid of academic personal website, study note, blogs, photos and other reviews I want to share. So you can see **CV** **publication** where I will share my research experience, **Blog Posts** is the combination of my note and other interesting blogs, the **Photo Gallery** is my photography collection, and the **Review Post** is my movies, animation and games review.
+This website is originally inspired by my PhD application process, where I learned that many students have their own academic website to show themselves. Pondering that all my research experience is all included in my CV and PS, why not just build a website for fun rather than only showing adademic prefomance. So I make this website a hybrid of academic personal website, study note, blogs, photos and other reviews I want to share. So you can see **CV** **Publications** where I will share my research experience, **Blog Posts** is the combination of my note and other interesting blogs, the **Photo Gallery** is my photography collection, and the **Review Post** is my movies, animation and games review.
 
 _Hope You Will Enjoy My Website_
 
-The language used in this website is flexible. It could be English 中文 Deutsch and 日本語. It depends on which language best express the meaning.
+The language used in this website is flexible. It could be English 中文 Deutsch and 日本語. It depends on which language best expresses the meaning.
 
 For more info
 ------
