@@ -23,13 +23,12 @@
 	}
 	header {
     		width: 100%;
-    		height: 40px; /* Adjust the height as needed */
-    		background-color: #fff; /* Background color for the header */
-    		color: #333; /* Text color for the header */
+    		height: 60px; /* Adjust the height as needed */
+    		background-color: #333; /* Background color for the header */
+    		color: #fff; /* Text color for the header */
     		display: flex;
     		align-items: center;
-    		justify-content: space-between; /* Space between elements */
-    		padding: 0 0px; /* Padding for the header */
+    		justify-content: center; /* Center the text */
     		position: fixed; /* Fix the header at the top */
     		top: 0;
     		left: 0;
@@ -47,6 +46,9 @@
     		padding: 10px 20px; /* Padding for the button */
     		cursor: pointer; /* Pointer cursor on hover */
     		border-radius: 5px; /* Rounded corners */
+    		margin-left: 20px; /* Add space to the left of the button */
+    		position: absolute; /* Position the button */
+    		left: 20px; /* Distance from the left edge */
 	}
 
 	header button:hover {
