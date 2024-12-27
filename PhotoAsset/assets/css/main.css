@@ -23,7 +23,7 @@
 	}
 	header {
     		width: 100%;
-    		height: 60px; /* Adjust the height as needed */
+    		height: 40px; /* Adjust the height as needed */
     		background-color: #fff; /* Background color for the header */
     		color: #333; /* Text color for the header */
     		display: flex;
