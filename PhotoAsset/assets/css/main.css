@@ -55,27 +55,6 @@
     		background-color: #777; /* Change background color on hover */
 	}
 
-	/* Responsive styles for mobile devices */
-	@media only screen and (max-width: 930px) {
-    	.thumb {
-        	width: 100%;
-        	margin-bottom: 20px;
-    	}
-    	.thumb img {
-        	width: 100%;
-        	height: auto;
-    	}
-    	.thumb h2, .thumb p {
-        	font-size: 16px; /* Adjust font size for mobile devices */
-        	margin: 10px 0; /* Add some margin for better readability */
-    	}
-    	p {
-        	font-size: 16px; /* Adjust font size for mobile devices */
-        	margin: 10px 0; /* Add some margin for better readability */
-    	}
-	}
-
-
 	ol, ul {
 		list-style: none;
 	}
