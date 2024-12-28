@@ -3,6 +3,31 @@ title: "パプリカ"
 excerpt: "このアニメ　まるで夢みたい<br/><img src='/images/paprika.webp' style='border: 5px solid gray; border-radius: 10px; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);'/>"
 collection: portfolio
 ---
+<html>
+<head>
+<meta charset="UTF-8">
+<title>居中图片和文字</title>
+<style>
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  img {
+    border: 5px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    width: 50%;
+    height: auto; /* 保持图片宽高比 */
+  }
+  figcaption {
+    color: teal;
+    font-style: italic;
+    margin-top: 10px; /* 图片和文字之间的间距 */
+  }
+</style>
+</head>
+<body>
 <p>
   今敏把电影拍不出来的东西，用动画拍了出来
 </p>
@@ -68,15 +93,15 @@ collection: portfolio
 可惜“パプリカ”已是今敏的最后一作，这位大师已于2010年放下了他最爱的画笔，仅以此文缅怀大师今敏。
 </span>
 </p>
-<p>
-  <figure>
-  
-<img src='/images/IMG_1727.webp' alt='kon' style='border: 5px solid black; border-radius: 10px; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); width: 50%; height: 50% ;'/>
-  <figurecaption style="color: teal; font-style: italic;">
-    Kon Satoshi</figurecaption>
-  </figure>
 
-</p>
+<div class="container">
+  <figure>
+    <img src='/images/IMG_1727.webp' alt='kon'>
+    <figcaption>Kon Satoshi</figcaption>
+  </figure>
+</div>
+
+</body>
   薛志恒
 
 
@@ -84,3 +109,4 @@ collection: portfolio
 
 
 写于科大东区
+</html>
