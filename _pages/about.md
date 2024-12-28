@@ -17,6 +17,9 @@ This website is originally inspired by my PhD application process, where I learn
 
 The language used in this website is flexible. It could be English 中文 Deutsch and 日本語. It depends on which language best expresses the meaning.
 
+Let me quote a saying from the Great Lu Xun to end this introduction:
+大抵是有写点什么东西的必要了吧。
+
 Warning
 --------
 This website is still unstable due to server's reason and also suffers from the perfomance on the Mobile devices. I am trying my best to sovle the problem
