@@ -1,0 +1,33 @@
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .pagination span {
+    margin-right: 2px; /* 在文本和第一个分页按钮之间添加一些空间 */
+    font-size: 20px;
+    color: teal;
+    font-style: italic;
+
+  }
+  .pagination a {
+    color: #333;
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  .pagination a:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  .pagination a.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+  }
