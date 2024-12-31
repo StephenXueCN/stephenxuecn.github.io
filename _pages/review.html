@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: /review/
+permalink: /review/page1/
 title: "My Review"
 author_profile: true
 ---
@@ -10,5 +10,19 @@ author_profile: true
 
 
 {% for post in site.portfolio %}
+{% if post.path contains '/page1/' %}
   {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
+
+
+
+<div class="pagination">
+  <span>Page：</span>
+  <div style="width: 20px;"></div> <!-- 添加一个占位符 -->
+  {% assign total_pages = 4 %}
+  <a href="{{ site.baseurl }}/review/page1/">1</a>
+  {% for page_num in (2..total_pages) %}
+    <a href="{{ site.baseurl }}/review/page{{ page_num }}/"> {{ page_num }}</a>
+  {% endfor %}
+</div>
