@@ -1,20 +1,62 @@
 ---
-title: 'Blog Post number 1'
-date: 2012-08-14
-permalink: /posts/2012/08/blog-post-1/
+title: 'Special Atomic term notations'
+date: 2024-12-31
+permalink: /posts/2024/12/notation/
 tags:
-  - cool posts
-  - category1
-  - category2
+  - Physics
+  - Quantum Mechanics
+  - Atomic Physics
 ---
 
-This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool.
+Introduction to the Racah notation and Paschen notation
 
-Headings are cool
-======
-
-You can have many headings
-======
-
-Aren't headings cool?
+Racah notation and Paschen notation
 ------
+
+
+As we all know that the coupling scheme for noble gas atoms is JL coupling unlike the famous and also normal LS coupling.
+
+In LS coupling is the atoms' orbital angular momentum and spin angular momentum form themselves and then together then form the total angular momentum which gives us the term
+
+$$
+n^{2S+1}L_{J}
+$$
+
+But for the special electron configuration of noble gas atoms, they will have a ion core which is not full and also a excited electron. The coupling goes like this.
+
+The ion core form a term itself following the LS coupling scheme, and the electron its own has a L and S. Then the J from the ion's LS coupling form the K with L from the separated electron. Finally the K and S form the J.
+
+From the exetremely long description above, you can forsee how complicated the complete term for JL coupling can be which goes like
+
+$$
+(^{2S_1+1}L_{1J_1})nl[K]_J^{o}
+$$
+
+$$
+(^{2S_1+1}L_{1J_1})
+$$
+
+is the term from ion
+
+$$
+nl
+$$
+is the electron configuration of the excited electron
+
+The above is the verbose Racah notation for the JL coupling. Then this is another simple but not physically correct notation called Paschen notation. Originating from tring to fit noble gas's spectrum line into hydrogen-like system but passed down to us as a tool for simplification.
+
+So here is how the Paschen notation goes.
+
+$$
+nl_{m}
+$$
+
+the $nl$ is the configuration for the excited electron, and the m denotes the number of levels formed by this excited electron (by different ion configuration terms and with different total angular momentum).
+
+for example in our optical excitation krypton.
+
+$$
+^2P_{3/2}2S^2[3/2]_{1}^{o}\rightarrow 1S_4
+$$
+
+etc.
