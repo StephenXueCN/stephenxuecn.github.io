@@ -17,9 +17,10 @@ layout: compress
     </style>
 <div class="center">
 	<h1>Welcome to My Photo Gallery</h1>
-    	<button onclick="window.history.back()">Go Back</button>
+        <button onclick="window.location.href='{{ site.baseurl }}/'">Homepage</button>
 </div>
 	<link rel="stylesheet" href="../PhotoAsset/assets/css/main.css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/pagination-photo.css">
 	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	{% include head.html %}
