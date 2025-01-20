@@ -1,0 +1,24 @@
+---
+layout: photo
+permalink: /photo4/
+author_profile: false
+title: Photo Gallery
+---
+
+<article class="thumb">
+    <a href="../PhotoAsset/images/fulls/USTC4.webp" class="image"><img src="../PhotoAsset/images/thumbs/USTC4.webp" alt="" style="border: 2px solid #cccccc; border-radius: 10px;" /></a>
+    <h2>2025.1 Hefei</h2>
+    <p>无题</p>
+</article>
+
+<article class="thumb">
+    <a href="../PhotoAsset/images/fulls/USTC5.webp" class="image"><img src="../PhotoAsset/images/thumbs/USTC5.webp" alt="" style="border: 2px solid #cccccc; border-radius: 10px;" /></a>
+    <h2>2025.1 Hefei</h2>
+    <p>70mm不够啊</p>
+</article>
+
+<article class="thumb">
+    <a href="../PhotoAsset/images/fulls/USTC6.webp" class="image"><img src="../PhotoAsset/images/thumbs/USTC6.webp" alt="" style="border: 2px solid #cccccc; border-radius: 10px;" /></a>
+    <h2>2025.1 Hefei</h2>
+    <p>糟心音乐会后的一点小收获</p>
+</article>
