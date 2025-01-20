@@ -1,7 +1,7 @@
 
 .pagination {
     display: flex;
-    justify-content: flex-start; /* 左对齐 */
+    justify-content: center; /* 左对齐 */
     align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -9,12 +9,12 @@
   .pagination span {
     margin-right: 2px; /* 在文本和第一个分页按钮之间添加一些空间 */
     font-size: 20px;
-    color: black;
+    color: white;
     font-style: Arial;
 
   }
   .pagination a {
-    color: #333;
+    color: white;
     text-decoration: none;
     padding: 8px 16px;
     border: 1px solid #ddd;
