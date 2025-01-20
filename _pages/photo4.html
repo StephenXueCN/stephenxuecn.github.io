@@ -18,3 +18,13 @@ title: Photo Gallery
     <h2>2025.1 Hefei</h2>
     <p>糟心音乐会后的一点小收获</p>
 </article>
+
+<div class="pagination">
+    <span>Page：</span>
+    <div style="width: 20px;"></div> <!-- 添加一个占位符 -->
+    {% assign total_pages = 4 %}
+    <a href="{{ site.baseurl }}/photo1/">1</a>
+    {% for page_num in (2..total_pages) %}
+      <a href="{{ site.baseurl }}/photo{{ page_num }}/"> {{ page_num }}</a>
+    {% endfor %}
+  </div>
