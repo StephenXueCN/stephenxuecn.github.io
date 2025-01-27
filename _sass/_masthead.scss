@@ -35,19 +35,11 @@
   }
 
   @media (max-width: 768px) {
-    top: 0; // Reset top distance for mobile
-    width: 100%; // Reset width for mobile
-    margin: 0; // Reset margin for mobile
-    border-radius: 0; // Reset border-radius for mobile
-
     &::before {
-      top: 0; // Reset top for mobile
-      left: 0; // Reset left for mobile
-      right: 0; // Reset right for mobile
-      bottom: 0; // Reset bottom for mobile
-      border-radius: 0; // Reset border-radius for mobile
-    }
+      -webkit-backdrop-filter: none; // Disable blur effect on mobile
+      backdrop-filter: none; // Disable blur effect on mobile
   }
+}
   
 
   &__inner-wrap {
