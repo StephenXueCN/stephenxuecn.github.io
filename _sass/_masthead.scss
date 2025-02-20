@@ -11,36 +11,11 @@
   width: 100%;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); // Add this line for shadow
 
-  top: 5px; // Add distance from the top
-  width: calc(100% - 40px); // Adjust width to account for margin
-  margin: 0 20px; // Add margin to create space on the sides
-  border-radius: 10px; // Add rounded corners
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.15s;
           animation-delay: 0.15s;
   z-index: 20;
-
-  &::before {
-    content: '';
-    position: fixed;
-    top: -10px;
-    left: -10px;
-    right: -10px;
-    bottom: -10px;
-    -webkit-backdrop-filter: blur(10px); // Apply blur effect
-    backdrop-filter: blur(10px); // Apply blur effect
-    border-radius: 15px; // Match the border-radius of the masthead
-    z-index: -1; // Place it behind the masthead
-  }
-
-  @media (max-width: 768px) {
-    &::before {
-      -webkit-backdrop-filter: none; // Disable blur effect on mobile
-      backdrop-filter: none; // Disable blur effect on mobile
-  }
-}
-  
 
   &__inner-wrap {
     @include container;
