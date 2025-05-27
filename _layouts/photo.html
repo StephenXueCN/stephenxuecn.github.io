@@ -36,7 +36,7 @@ layout: compress
         
         /* Proper centering for the navigation button */
         .nav-button {
-            display: inline-block; /* This is key for proper centering */
+            display: inline-block;
             padding: 12px 30px;
             background: linear-gradient(45deg, #007acc, #0056b3);
             color: white;
@@ -61,7 +61,7 @@ layout: compress
         #main {
             padding: 2rem;
             max-width: 1200px;
-            margin: 0 auto;
+            margin: 0 auto 2rem auto;
         }
         
         /* Photo frame styling - Creating clear separation */
@@ -87,7 +87,6 @@ layout: compress
             height: auto;
             border-radius: 10px;
             transition: transform 0.3s ease;
-            /* Adding a subtle inner shadow to the image itself */
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
         }
         
@@ -109,124 +108,149 @@ layout: compress
             line-height: 1.6;
         }
         
-        /* Fixing pagination styling - This ensures it displays properly */
-       /* Fixed pagination styling - Replace your existing pagination CSS with this */
-.pagination {
-    text-align: center;
-    margin: 4rem auto 6rem auto; /* Increased bottom margin */
-    padding: 2rem 1rem;
-    max-width: 800px; /* Constrain width */
-    
-    /* Simplified positioning - remove backdrop-filter that can cause issues */
-    position: relative;
-    z-index: 100;
-    
-    /* Cleaner background without backdrop-filter */
-    background: #ffffff;
-    border-radius: 15px;
-    border: 1px solid #e9ecef;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-    
-    /* Ensure it's a proper block element */
-    display: block;
-    clear: both; /* Clear any floats */
-}
-
-/* Force footer to stay below pagination */
-.page__footer {
-    position: relative;
-    z-index: 1;
-    margin-top: 3rem; /* Increased margin */
-    clear: both;
-    
-    /* Ensure footer doesn't float or overlay */
-    display: block;
-    width: 100%;
-}
-
-.pagination span {
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: #495057;
-    margin-right: 1.5rem;
-    display: inline-block; /* Ensure proper display */
-}
-
-/* Simplified pagination links without backdrop-filter */
-.pagination a {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 12px 20px;
-    margin: 0 8px;
-    min-width: 50px;
-    min-height: 50px;
-    
-    /* Solid background instead of semi-transparent */
-    background: #ffffff;
-    color: #007acc;
-    text-decoration: none;
-    border-radius: 10px;
-    transition: all 0.3s ease;
-    border: 2px solid #007acc;
-    font-weight: 500;
-    font-size: 1rem;
-    line-height: 1;
-    
-    /* Simplified shadow */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    
-    /* Ensure proper positioning */
-    position: relative;
-    z-index: 10;
-}
-
-.pagination a:hover {
-    background: #007acc;
-    color: white;
-    transform: translateY(-3px);
-    box-shadow: 0 6px 20px rgba(0, 122, 204, 0.4);
-    border-color: #007acc;
-}
-
-/* Additional spacing fix for the main content area */
-#main {
-    padding: 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
-    margin-bottom: 2rem; /* Ensure separation from pagination */
-}
-
-/* Wrapper fix to ensure proper layout flow */
-#wrapper {
-    background-color: white;
-    min-height: 100vh;
-    position: relative; /* Establish positioning context */
-}
-
-/* Mobile responsive adjustments */
-@media (max-width: 768px) {
-    .pagination {
-        margin: 3rem auto 4rem auto;
-        padding: 1.5rem 1rem;
-    }
-    
-    .pagination a {
-        padding: 8px 14px;
-        margin: 2px 3px;
-        min-width: 40px;
-        min-height: 40px;
-    }
-}
+        /* FIXED PAGINATION STYLING - Properly centered and spaced */
+        .pagination {
+            /* Force center alignment regardless of parent container */
+            display: flex !important;
+            justify-content: center !important;
+            align-items: center !important;
+            flex-wrap: wrap !important;
+            
+            /* Spacing and positioning */
+            margin: 4rem auto 6rem auto;
+            padding: 2rem 1rem;
+            
+            /* Container styling */
+            background: #ffffff;
+            border-radius: 15px;
+            border: 1px solid #e9ecef;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            
+            /* Layout fixes */
+            position: relative;
+            z-index: 100;
+            clear: both;
+            width: fit-content;
+            max-width: 90%;
+            
+            /* Remove any text alignment that might interfere */
+            text-align: center;
+        }
         
-        /* Adding some visual separation between sections */
+        /* Ensure footer stays below pagination */
+        .page__footer {
+            position: relative;
+            z-index: 1;
+            margin-top: 3rem;
+            clear: both;
+            display: block;
+            width: 100%;
+        }
+        
+        .pagination span {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #495057;
+            margin-right: 1.5rem;
+            display: inline-block;
+            white-space: nowrap;
+        }
+        
+        /* Pagination links styling */
+        .pagination a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 12px 20px;
+            margin: 0 8px;
+            min-width: 50px;
+            min-height: 50px;
+            
+            background: #ffffff;
+            color: #007acc;
+            text-decoration: none;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+            border: 2px solid #007acc;
+            font-weight: 500;
+            font-size: 1rem;
+            line-height: 1;
+            
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            position: relative;
+            z-index: 10;
+            
+            /* Prevent text selection */
+            user-select: none;
+            -webkit-user-select: none;
+        }
+        
+        .pagination a:hover {
+            background: #007acc;
+            color: white;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0, 122, 204, 0.4);
+            border-color: #007acc;
+        }
+        
+        /* Wrapper layout fix */
+        #wrapper {
+            background-color: white;
+            min-height: 100vh;
+            position: relative;
+        }
+        
+        /* Responsive design adjustments */
+        @media (max-width: 768px) {
+            #main {
+                padding: 1rem;
+            }
+            
+            .gallery-header h1 {
+                font-size: 2rem;
+            }
+            
+            .thumb {
+                padding: 1.5rem;
+                margin-bottom: 2rem;
+            }
+            
+            .pagination {
+                margin: 3rem auto 4rem auto;
+                padding: 1.5rem 1rem;
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            .pagination span {
+                margin-right: 0;
+                margin-bottom: 0.5rem;
+            }
+            
+            .pagination a {
+                padding: 8px 14px;
+                margin: 2px 3px;
+                min-width: 40px;
+                min-height: 40px;
+            }
+        }
+        
+        /* Additional body and layout styling */
         body {
             background-color: #f8f9fa;
         }
         
-        #wrapper {
-            background-color: white;
-            min-height: 100vh;
+        /* Override any conflicting styles that might affect pagination alignment */
+        .pagination * {
+            box-sizing: border-box;
+        }
+        
+        /* Ensure no floating elements interfere with pagination */
+        .pagination::before,
+        .pagination::after {
+            content: "";
+            display: table;
+            clear: both;
         }
     </style>
 </head>
