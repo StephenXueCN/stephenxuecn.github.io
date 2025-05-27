@@ -110,93 +110,114 @@ layout: compress
         }
         
         /* Fixing pagination styling - This ensures it displays properly */
-        .pagination {
-            text-align: center;
-            margin-top: 4rem;
-            margin-bottom: 3rem; /* Add space before footer */
-            padding: 2rem 1rem;
-            /* Making pagination topmost layer with transparent effect */
-            position: relative;
-            z-index: 9999; /* Highest priority layer */
-            background: rgba(248, 249, 250, 0.85); /* Semi-transparent background */
-            backdrop-filter: blur(10px); /* Glass morphism effect */
-            -webkit-backdrop-filter: blur(10px); /* Safari support */
-            border-radius: 15px;
-            border: 1px solid rgba(233, 236, 239, 0.3);
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-        }
-        
-        /* Ensure footer doesn't interfere with pagination */
-        .page__footer {
-            position: relative;
-            z-index: 1 !important; /* Much lower than pagination */
-            margin-top: 2rem;
-            clear: both; /* Clear any floating elements */
-        }
-        
-        .pagination span {
-            font-size: 1.2rem;
-            font-weight: 600;
-            color: #495057;
-            margin-right: 1.5rem;
-            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            position: relative;
-            z-index: 10001; /* Ensure text is also on top */
-        }
-        
-        /* Ensuring pagination links are properly styled and visible */
-        .pagination a {
-            display: inline-flex !important; /* Changed from inline-block to inline-flex */
-            align-items: center; /* Vertical centering */
-            justify-content: center; /* Horizontal centering */
-            padding: 12px 20px;
-            margin: 0 8px;
-            min-width: 50px; /* Ensure consistent button width */
-            min-height: 50px; /* Ensure consistent button height */
-            background: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
-            color: #007acc;
-            text-decoration: none;
-            border-radius: 10px;
-            transition: all 0.3s ease;
-            border: 2px solid rgba(0, 122, 204, 0.6); /* Semi-transparent border */
-            font-weight: 500;
-            font-size: 1rem; /* Explicit font size */
-            line-height: 1; /* Remove default line-height spacing */
-            backdrop-filter: blur(5px); /* Glass effect on buttons too */
-            -webkit-backdrop-filter: blur(5px);
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-            position: relative;
-            z-index: 10000; /* Even higher than pagination container */
-        }
-        
-        .pagination a:hover {
-            background: rgba(0, 122, 204, 0.9); /* Semi-transparent blue */
-            color: white;
-            transform: translateY(-3px);
-            box-shadow: 0 6px 20px rgba(0, 122, 204, 0.4);
-            border-color: rgba(0, 122, 204, 0.9);
-        }
-        
-        /* Responsive design adjustments */
-        @media (max-width: 768px) {
-            #main {
-                padding: 1rem;
-            }
-            
-            .gallery-header h1 {
-                font-size: 2rem;
-            }
-            
-            .thumb {
-                padding: 1.5rem;
-                margin-bottom: 2rem;
-            }
-            
-            .pagination a {
-                padding: 8px 14px;
-                margin: 2px 3px;
-            }
-        }
+       /* Fixed pagination styling - Replace your existing pagination CSS with this */
+.pagination {
+    text-align: center;
+    margin: 4rem auto 6rem auto; /* Increased bottom margin */
+    padding: 2rem 1rem;
+    max-width: 800px; /* Constrain width */
+    
+    /* Simplified positioning - remove backdrop-filter that can cause issues */
+    position: relative;
+    z-index: 100;
+    
+    /* Cleaner background without backdrop-filter */
+    background: #ffffff;
+    border-radius: 15px;
+    border: 1px solid #e9ecef;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    
+    /* Ensure it's a proper block element */
+    display: block;
+    clear: both; /* Clear any floats */
+}
+
+/* Force footer to stay below pagination */
+.page__footer {
+    position: relative;
+    z-index: 1;
+    margin-top: 3rem; /* Increased margin */
+    clear: both;
+    
+    /* Ensure footer doesn't float or overlay */
+    display: block;
+    width: 100%;
+}
+
+.pagination span {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #495057;
+    margin-right: 1.5rem;
+    display: inline-block; /* Ensure proper display */
+}
+
+/* Simplified pagination links without backdrop-filter */
+.pagination a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 20px;
+    margin: 0 8px;
+    min-width: 50px;
+    min-height: 50px;
+    
+    /* Solid background instead of semi-transparent */
+    background: #ffffff;
+    color: #007acc;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    border: 2px solid #007acc;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1;
+    
+    /* Simplified shadow */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    
+    /* Ensure proper positioning */
+    position: relative;
+    z-index: 10;
+}
+
+.pagination a:hover {
+    background: #007acc;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 122, 204, 0.4);
+    border-color: #007acc;
+}
+
+/* Additional spacing fix for the main content area */
+#main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 2rem; /* Ensure separation from pagination */
+}
+
+/* Wrapper fix to ensure proper layout flow */
+#wrapper {
+    background-color: white;
+    min-height: 100vh;
+    position: relative; /* Establish positioning context */
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+    .pagination {
+        margin: 3rem auto 4rem auto;
+        padding: 1.5rem 1rem;
+    }
+    
+    .pagination a {
+        padding: 8px 14px;
+        margin: 2px 3px;
+        min-width: 40px;
+        min-height: 40px;
+    }
+}
         
         /* Adding some visual separation between sections */
         body {
