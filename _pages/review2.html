@@ -3,13 +3,6 @@ layout: archive
 permalink: /review/page2/
 title: "My Review"
 author_profile: true
-pagination_context:
-  current_page: 2
-  total_pages: 4 # You'd update this if the total changes
-  base_url_segment: "/review/page" # e.g., for generating /review/page2/, /review/page3/
-                                 # Or, if page 1 is /review/ and others are /review/pageN:
-                                 # base_url_page1: "/review/"
-                                 # base_url_others: "/review/page"
 ---
 
 
@@ -21,3 +14,15 @@ pagination_context:
   {% include archive-single.html %}
   {% endif %}
 {% endfor %}
+
+
+
+<div class="pagination">
+    <span>Page：</span>
+    <div style="width: 20px;"></div> <!-- 添加一个占位符 -->
+    {% assign total_pages = 4 %}
+    <a href="{{ site.baseurl }}/review/page1/">1</a>
+    {% for page_num in (2..total_pages) %}
+      <a href="{{ site.baseurl }}/review/page{{ page_num }}/"> {{ page_num }}</a>
+    {% endfor %}
+  </div>
