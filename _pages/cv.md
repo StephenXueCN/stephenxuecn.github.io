@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: archive_single_cv
 title: "CV"
 permalink: /cv/
 author_profile: true
@@ -13,6 +13,7 @@ Education
 ======
 * B.S. in department of physics,Univerisity of Science and Technology of China, 2021-2025
 * PhD in the Applied Engineering and Physics, Cornell University
+  
 Research experience
 ======
 * University of Science and Technology of China, Trace Analysis Lab----Hefei, China
