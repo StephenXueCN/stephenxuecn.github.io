@@ -11,8 +11,8 @@ redirect_from:
 
 Education
 ======
-* B.S. of science in department of physics,Univerisity of Science and Technology of China, 2021-2025
-
+* B.S. in department of physics,Univerisity of Science and Technology of China, 2021-2025
+* PhD in the Applied Engineering and Physics, Cornell University
 Research experience
 ======
 * University of Science and Technology of China, Trace Analysis Lab----Hefei, China
