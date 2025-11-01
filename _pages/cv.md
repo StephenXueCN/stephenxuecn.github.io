@@ -14,7 +14,7 @@ Education
 * B.S. in department of physics,Univerisity of Science and Technology of China, 2021-2025
   
   ![ustc](../images/ustc.png){:style="height:100px!important;width:100px!important"}
-* PhD in the Applied Engineering and Physics, Cornell University, 2025-2031
+* Ph.D. in the Applied Engineering and Physics, Cornell University, 2025-2031
   
   ![cornell](../images/cornell.png){:style="height:100px!important;width:100px!important"}
   
