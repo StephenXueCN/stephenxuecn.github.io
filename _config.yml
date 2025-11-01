@@ -24,10 +24,10 @@ author:
   avatar           : "avatar.jpg"
   name             : "Zhiheng Xue"
   pronouns         : "He/Him"  
-  bio              : "USTC undergraduate student"
+  bio              : "Cornell AEP PhD student"
   location         : "Hefei, Anhui, China"
   employer         : "USTC,ATTA group"
-  uri              : "http://atta.ustc.edu.cn/en-us/index.html"# URL
+  uri              : "https://iontrap.aep.cornell.edu/"# URL
   email            : "stephen_xue@mail.ustc.edu.cn" 
 
   # Academic websites
@@ -73,6 +73,7 @@ author:
   xing             : # Username
   youtube          : # Username
   zhihu            : # Username
+  bilibili         :"https://space.bilibili.com/1985347072?spm_id_from=333.1387.0.0"
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
@@ -146,7 +147,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               :  "google" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
     tracking_id          :
 
