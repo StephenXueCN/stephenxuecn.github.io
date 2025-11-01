@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Zhiheng Xue/Personal Page"
 title_separator          : "-"
 name                     : &name "Zhiheng Xue"
-description              : &description "studying physics loving movie, animation, music, books and photography"
+description              : &description "studying physics loving movies, animations, musics, books and photography"
 url                      : https://stephenxuecn.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "stephenxuecn/stephenxuecn.github.io"
@@ -73,7 +73,6 @@ author:
   xing             : # Username
   youtube          : # Username
   zhihu            : # Username
-  bilibili         :"https://space.bilibili.com/1985347072?spm_id_from=333.1387.0.0"
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
